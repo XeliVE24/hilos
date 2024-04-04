@@ -36,7 +36,7 @@ print(f"tiempo total de ejecucion: {tf}")
 print(listaNumeros)
 print("________________________________________________________________________")
 
-print("usando 2 hilos")
+print("usando 4 hilos")
 print() 
 
 globalArrayNum=[]
@@ -50,7 +50,7 @@ t0=time.time()
 listaHilos=[]
 
 
-print("----------------------------")
+print("---------hardcode-------------------")
 
 t=threading.Thread(target=contadorDos,args=(1,25))
 listaHilos.append(t)
